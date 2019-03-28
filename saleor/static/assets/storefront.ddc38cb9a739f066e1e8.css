@@ -5495,7 +5495,7 @@ img.imgizq{    float: left;
 
 img.imgder {
     float: right;
-    width: 400px;
+    width: 50%;
     margin-top: -285px;
 }
 
@@ -5508,9 +5508,19 @@ img.imgder {
 45% { left: -100%; }
 50% { left: -200%; }
 70% { left: -200%; }
-
+75% { left: -300%; }
+80% { left: -300%; }
+85% { left: -300%; }
 
 }
+
+
+.wherehijo1{ background-image: url(/static/assets/cuadrito1.jpg); background-position: center;background-repeat: no-repeat;background-size: cover;width: 20%;height: 100%;float: left; border: solid 4px; white;}
+.wherehijo2{ background-image: url(/static/assets/cuadrito2.jpg); background-position: center;background-repeat: no-repeat;background-size: cover;width: 20%;height: 100%;float: left; border: solid 4px; white;}
+.wherehijo3{ background-image: url(/static/assets/cuadrito3.jpg); background-position: center;background-repeat: no-repeat;background-size: cover;width: 20%;height: 100%;float: left; border: solid 4px; white;}
+.wherehijo4{ background-image: url(/static/assets/cuadrito4.jpg); background-position: center;background-repeat: no-repeat;background-size: cover;width: 20%;height: 100%;float: left; border: solid 4px; white;}
+.wherehijo5{ background-image: url(/static/assets/cuadrito5.jpg); background-position: center;background-repeat: no-repeat;background-size: cover;width: 20%;height: 100%;float: left; border: solid 4px; white;}
+
 
 body { margin: 0; } 
 div#slider { overflow: hidden;    height: 670px; }
@@ -5522,14 +5532,14 @@ div#slider figure {
   left: 0;
   text-align: left;
   font-size: 0;
-  animation: 30s slidy infinite; 
+  animation: 40s slidy infinite; 
 }
 
 div.divhome:before {
     content: "";
     background: #9b6038;
     padding: 140px 155px 420px 2px;
-    float: right;
+    float: right;display: none;
 }
 
 .divhome h1 {
@@ -5550,11 +5560,28 @@ div.divhome:before {
 
 .hish {
     color: black;
-    width: 485px;
-    text-align: justify;
+    width: 50%;
+    text-align: justify;background: #ededed;
+    padding: 30px;
 }
 
 
+.where{width: 100%;height: 250px;background:none;}
+.wherehijo{width: 20%;background: red;height: 250px; border:solid 5px black;float: left;}
+
+img.susto {
+    width: 50%;
+    float: left;
+}
+
+.cuadro{    color: black;
+    width: 485px;
+    text-align: justify;
+    background: #ededed;
+    position: absolute;
+    z-index: 99999;
+    height: 0px !important;
+    padding: 103px;}
 
 
 .lookbook {
@@ -5645,6 +5672,13 @@ li.active a {
     width: 100%;
 
 }
+
+
+.wherehijo1{ background-image: url(/static/assets/cuadrito1.jpg); background-position: center;background-repeat: no-repeat;background-size: cover;width: 100%;height: 100%;float: left; border: solid 4px; white;}
+.wherehijo2{ background-image: url(/static/assets/cuadrito2.jpg); background-position: center;background-repeat: no-repeat;background-size: cover;width: 100%;height: 100%;float: left; border: solid 4px; white;}
+.wherehijo3{ background-image: url(/static/assets/cuadrito3.jpg); background-position: center;background-repeat: no-repeat;background-size: cover;width: 100%;height: 100%;float: left; border: solid 4px; white;}
+.wherehijo4{ background-image: url(/static/assets/cuadrito4.jpg); background-position: center;background-repeat: no-repeat;background-size: cover;width: 100%;height: 100%;float: left; border: solid 4px; white;}
+.wherehijo5{ background-image: url(/static/assets/cuadrito5.jpg); background-position: center;background-repeat: no-repeat;background-size: cover;width: 100%;height: 100%;float: left; border: solid 4px; white;}
 
 img.susto{width: 100%;margin-bottom: 20px;}
 
@@ -5823,4 +5857,32 @@ li.atixd p:hover{    background: #6d6d6d;transition: 0.6s}
 img.alianzas {
     margin-top: 70px;
     width: auto;
+}
+
+
+
+
+.slider1{    margin: 0 auto;
+    width: 65%;height: 130px;background-image: url(/static/images/alianzas.jpg);background-repeat: repeat-x;  animation-name: sliderc; animation-duration: 15s; animation-iteration-count: infinite; animation-timing-function: linear; }
+
+.slider2{    margin: 0 auto;
+    width: 65%;height: 135px;background-image: url(/static/images/cerfificaciones.jpg);background-repeat:no-repeat;background-position: center;}
+
+.slider3{    margin: 0 auto;
+    width: 65%;height: 130px;background-image: url(/static/images/aliados.jpg);background-repeat: repeat-x;  animation-name: sliderc; animation-duration: 15s; animation-iteration-count: infinite;  animation-timing-function: linear;}
+
+
+   @keyframes sliderc{
+          from{    background-position: 0px;}
+          to{    background-position: -1666px;}      
+   }
+
+   p.tsli {
+    color: #c67e70;
+    font-weight: bold;
+    font-size: 25px;
+    border-bottom: 1px solid;
+    width: 50%;
+    margin: 0 auto;
+    margin-bottom: 22px;
 }
