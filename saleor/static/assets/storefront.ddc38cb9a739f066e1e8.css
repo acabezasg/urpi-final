@@ -5498,7 +5498,9 @@ img.imgder {
     width: 50%;
     margin-top: -285px;
 }
-
+.language-picker.dropdown.show {
+    display: none;
+}
 
 
     @keyframes slidy {
@@ -5511,15 +5513,23 @@ img.imgder {
 75% { left: -300%; }
 80% { left: -300%; }
 85% { left: -300%; }
+90% { left: -400%; }
+95% { left: -400%; }
 
 }
 
+a {
+    color: transparent;
+    text-decoration: none;
+}
 
-.wherehijo1{ background-image: url(/static/assets/cuadrito1.jpg); background-position: center;background-repeat: no-repeat;background-size: cover;width: 20%;height: 100%;float: left; border: solid 4px; white;}
-.wherehijo2{ background-image: url(/static/assets/cuadrito2.jpg); background-position: center;background-repeat: no-repeat;background-size: cover;width: 20%;height: 100%;float: left; border: solid 4px; white;}
-.wherehijo3{ background-image: url(/static/assets/cuadrito3.jpg); background-position: center;background-repeat: no-repeat;background-size: cover;width: 20%;height: 100%;float: left; border: solid 4px; white;}
-.wherehijo4{ background-image: url(/static/assets/cuadrito4.jpg); background-position: center;background-repeat: no-repeat;background-size: cover;width: 20%;height: 100%;float: left; border: solid 4px; white;}
-.wherehijo5{ background-image: url(/static/assets/cuadrito5.jpg); background-position: center;background-repeat: no-repeat;background-size: cover;width: 20%;height: 100%;float: left; border: solid 4px; white;}
+
+
+@keyframes bandam{from{    background-position: 0px;}
+to{    background-position: -4360px;}} 
+
+.wherehijo1{ background-image: url(/static/assets/bandam.jpg); background-position: center;background-repeat:repeat-x;    background-size: cover;width: 100%;height: 100%;float: left; animation-name: bandam;animation-duration: 50s;animation-timing-function: linear;animation-iteration-count: infinite;}
+
 
 
 body { margin: 0; } 
@@ -5532,7 +5542,7 @@ div#slider figure {
   left: 0;
   text-align: left;
   font-size: 0;
-  animation: 40s slidy infinite; 
+  animation: 60s slidy infinite; 
 }
 
 div.divhome:before {
