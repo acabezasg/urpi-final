@@ -22,6 +22,10 @@ background: white;
 
 }
 
+img.logoxd{width: 150px;
+    position: absolute;
+    top: 0;}
+
 .catalogo {
     margin-bottom: 500px;
     height: 260px;
@@ -40,22 +44,33 @@ background: white;
 
 
 @media only screen and (max-width: 600px) {
+
+iframe {
+    width: 100%;
+}
+img.logoxd {
+    width: 100px;
+    position: absolute;
+    z-index: 999;
+    top: 0;
+}
+
 .left2 {
-background:white;
+background: white;
     width: 100%;
     height: 671px;
     float: left;
-    background-image: url(/static/assets/fondocatalogo.jpg);
+
+}
+.right2 {
+    width: 100%;
+    background:white;
+    height: 671px;
+    float: right;
+        background-image: url(/static/assets/fondocatalogo.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 0px -183px;
-}
-
-.right2 {
-    width: 100%;
-    background: white;
-    height: 671px;
-    float: left;
 
 }
 
