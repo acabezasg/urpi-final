@@ -5501,7 +5501,11 @@ img.imgder {
 .language-picker.dropdown.show {
     display: none;
 }
-
+.hish a {
+    color: white;
+    background:black !important;
+    padding: 6px;
+}
 
     @keyframes slidy {
 0% { left: 0%; }
@@ -5517,6 +5521,25 @@ img.imgder {
 95% { left: -400%; }
 
 }
+
+
+#content {
+  display: none;
+}
+input[type="text"]{
+    color: transparent;
+    text-shadow: 0 0 0 #000;
+    padding: 6px 12px;
+    width: 150px;
+    cursor: pointer;
+}
+input[type="text"]:focus{
+    outline: none;
+}
+input:focus + div#content {
+  display: block;
+}
+
 
 a {
     color: transparent;
@@ -5571,7 +5594,7 @@ div.divhome:before {
 .hish {
     color: black;
     width: 50%;
-    text-align: justify;background: #ededed;
+    text-align: justify;background: none;
     padding: 30px;
 }
 
@@ -5580,7 +5603,7 @@ div.divhome:before {
 .wherehijo{width: 20%;background: red;height: 250px; border:solid 5px black;float: left;}
 
 img.susto {
-    width: 50%;
+    width: 50%;    margin-bottom: 90px;
     float: left;
 }
 
@@ -5597,15 +5620,437 @@ img.susto {
 .lookbook {
     width: 70%;
     margin: 0 auto;
+    height: 1200px;
 }
 
-.lookbookhijo {
+.lookbookhijo1 {
+    width: 33.3333%;
+    background: #f3f3f3;
+    height: 400px;
+    background-size: cover;
+    float: left;
+    border: solid white 30px;
+    background-image: url(/static/images/lookbook/UrpiWomans/Inspiración%20Hand%20Made/portadafinal.png);
+}
+.lookbookhijo1 h2 {
+    color: black;
+    font-weight: bold;
+    transform: translate(0px, -30px);    position: absolute;
+}
+
+
+
+
+.lookbookhijo2 {
+    width: 33.3333%;
+    background: #f3f3f3;
+    height: 400px;
+    background-size: cover;
+    float: left;
+    border: solid white 30px;
+    background-image: url(/static/images/lookbook/URPIMEN/Inspiracion%20Audaz/portada.png);
+}
+.lookbookhijo2 h2 {
+    color: black;
+    font-weight: bold;
+    transform: translate(0px, -30px);    position: absolute;
+}
+
+.lookbookhijo3 {
+      width: 33.3333%;
+    background: #f3f3f3;
+    height: 400px;
+    background-size: cover;
+    float: left;
+    border: solid white 30px;
+    background-image: url(/static/images/lookbook/URPIKIDS/Toy/portada.png);    background-position: bottom;
+}
+.lookbookhijo3 h2 {
+    color: black;
+    font-weight: bold;
+    transform: translate(0px, -30px);    position: absolute;
+}
+
+
+.lookbookhijo4 {
+        width: 33.3333%;
+    background: #f3f3f3;
+    height: 400px;
+    background-size: cover;
+    float: left;
+    border: solid white 30px;
+    background-image: url(/static/images/lookbook/HOMEDECO/portada.png);background-position: 0px;
+}
+.lookbookhijo4 h2 {
+    color: black;
+    font-weight: bold;
+    transform: translate(0px, -30px);    position: absolute;
+}
+
+
+
+.lookbookhijo5 {
+         width: 33.3333%;
+    background: #f3f3f3;
+    height: 400px;
+    background-size: cover;
+    float: left;
+    border: solid white 30px;
+    background-image: url(/static/images/lookbook/Joyeria%20en%20plata%20950/portada.png);
+}
+.lookbookhijo5 h2 {
+    color: black;
+    font-weight: bold;
+    transform: translate(0px, -30px);    position: absolute;
+}
+
+
+
+
+.lookbookhijo6 {
+           width: 33.3333%;
+    background: #f3f3f3;
+    height: 400px;
+    background-size: cover;
+    float: left;
+    border: solid white 30px;
+    background-image: url(/static/images/lookbook/newcollection/HOME&DECO%207.png);background-position: -100px;
+}
+
+
+.lookbookhijo6 h2 {
+    color: black;
+    font-weight: bold;
+    transform: translate(0px, -30px);    position: absolute;
+}
+
+.lookbookhijo7 {
     width: 33.3333%;
     background: #f3f3f3;
     height: 400px;
     float: left;
     border: solid white 30px;
 }
+.lookbookhijo8 {
+    width: 33.3333%;
+    background: #f3f3f3;
+    height: 400px;
+    float: left;
+    border: solid white 30px;
+}
+.lookbookhijo9 {
+    width: 33.3333%;
+    background: #f3f3f3;
+    height: 400px;
+    float: left;
+    border: solid white 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.lookbookhijo1woman {
+    width: 33.3333%;
+    background: #f3f3f3;
+    height: 400px;
+    background-size: cover;
+    float: left;
+    border: solid white 30px;
+    background-image: url(/static/images/lookbook/UrpiWomans/Inspiración%20Hand%20Made/portadafinal.png);
+}
+.lookbookhijo1woman h2 {
+    color: black;
+    font-weight: bold;
+    transform: translate(0px, -30px);    position: absolute;
+}
+
+
+
+
+.lookbookhijo2woman {
+    width: 33.3333%;
+    background: #f3f3f3;
+    height: 400px;
+    background-size: cover;
+    float: left;
+    border: solid white 30px;
+    background-image: url(/static/images/lookbook/UrpiWomans/Alpaca%20Lovers/portada.png);
+}
+.lookbookhijo2woman h2 {
+    color: black;
+    font-weight: bold;
+    transform: translate(0px, -30px);    position: absolute;
+}
+
+
+.lookbookhijo3woman {
+      width: 33.3333%;
+    background: #f3f3f3;
+    height: 400px;
+    background-size: cover;
+    float: left;
+    border: solid white 30px;
+    background-image: url(/static/images/lookbook/UrpiWomans/Inspiración%20Fair%20Trade/portada.png);
+}
+.lookbookhijo3woman h2 {
+    color: black;
+    font-weight: bold;
+    transform: translate(0px, -30px);    position: absolute;
+}
+
+
+.lookbookhijo4woman {
+        width: 33.3333%;
+    background: #f3f3f3;
+    height: 400px;
+    background-size: cover;
+    float: left;
+    border: solid white 30px;
+    background-image: url(/static/images/lookbook/UrpiWomans/Inspiración%20Fibra%20sostenible/portada.png);
+}
+.lookbookhijo4woman h2 {
+    color: black;
+    font-weight: bold;
+    transform: translate(0px, -30px);    position: absolute;
+}
+
+
+
+.lookbookhijo5woman {
+         width: 33.3333%;
+    background: #f3f3f3;
+    height: 400px;
+    background-size: cover;
+    float: left;
+    border: solid white 30px;
+    background-image: url(/static/images/lookbook/UrpiWomans/Inspiracion%20Los%20Andes/portada.png);
+}
+.lookbookhijo5woman h2 {
+    color: black;
+    font-weight: bold;
+    transform: translate(0px, -30px);    position: absolute;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.lookbookhijo1men {
+    width: 33.3333%;
+    background: #f3f3f3;
+    height: 400px;
+    background-size: cover;
+    float: left;
+    border: solid white 30px;
+    background-image: url(/static/images/lookbook/URPIMEN/Inspiracion%20Audaz/portada.png);
+}
+.lookbookhijo1men h2 {
+    color: black;
+    font-weight: bold;
+    transform: translate(0px, -30px);    position: absolute;
+}
+
+
+
+
+.lookbookhijo2men {
+    width: 33.3333%;
+    background: #f3f3f3;
+    height: 400px;
+    background-size: cover;
+    float: left;
+    border: solid white 30px;
+    background-image: url(/static/images/lookbook/URPIMEN/Inspiracion%20Ocaso/portada.png);
+}
+.lookbookhijo2men h2 {
+    color: black;
+    font-weight: bold;
+    transform: translate(0px, -30px);    position: absolute;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.lookbookhijo1kids {
+    width: 33.3333%;
+    background: #f3f3f3;
+    height: 400px;
+    background-size: cover;
+    float: left;
+    border: solid white 30px;
+    background-image: url(/static/images/lookbook/URPIKIDS/Kids/TEJIDOS/portada.png);
+}
+.lookbookhijo1kids h2 {
+    color: black;
+    font-weight: bold;
+    transform: translate(0px, -30px);    position: absolute;
+}
+
+
+
+
+.lookbookhijo2kids {
+    width: 33.3333%;
+    background: #f3f3f3;
+    height: 400px;
+    background-size: cover;
+    float: left;background-position: bottom;
+    border: solid white 30px;
+    background-image: url(/static/images/lookbook/URPIKIDS/Toy/portada.png);
+}
+.lookbookhijo2kids h2 {
+    color: black;
+    font-weight: bold;
+    transform: translate(0px, -30px);    position: absolute;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.lookbookhijo2jewellery {
+    width: 33.3333%;
+    background: #f3f3f3;
+    height: 400px;
+    background-size: cover;
+    float: left;background-position: bottom;
+    border: solid white 30px;
+    background-image: url(/static/images/lookbook/URPIKIDS/Toy/portada.png);
+}
+.lookbookhijo2jewellery h2 {
+    color: black;
+    font-weight: bold;
+    transform: translate(0px, -30px);    position: absolute;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.luk{width: 100%;}
+
+img.lukimg{       margin: 0 auto;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    width: 80%;
+    margin-bottom: 60px;
+    display: table;}
 
 .home h1 {
     font-weight: 300;
@@ -5683,6 +6128,25 @@ li.active a {
 
 }
 
+img.lukimg {
+    margin: 0 auto;
+    width: 100%;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    display: table;
+}
+
+.slider2 {
+    margin: 0 auto;
+    width: 100%;
+    background-size: 200%;
+    height: 135px;
+    background-image: url(/static/images/cerfificaciones.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
 
 .wherehijo1{ background-image: url(/static/assets/cuadrito1.jpg); background-position: center;background-repeat: no-repeat;background-size: cover;width: 100%;height: 100%;float: left; border: solid 4px; white;}
 .wherehijo2{ background-image: url(/static/assets/cuadrito2.jpg); background-position: center;background-repeat: no-repeat;background-size: cover;width: 100%;height: 100%;float: left; border: solid 4px; white;}
@@ -5699,7 +6163,7 @@ img.susto{width: 100%;margin-bottom: 20px;}
 }
 
 .lookbook {
-    width: 70%;
+    width: 100%;
     margin: 0 auto;
     height: 3666px;
 }
@@ -5717,10 +6181,6 @@ background-size: contain;background-repeat: no-repeat;
   background-size: contain;background-repeat: no-repeat;
     height: 184px;
     float: left;
-}
-.lookbook {
-    width: 100%;
-    margin: 0 auto;
 }
 
 .lookbookhijo {
@@ -5850,7 +6310,7 @@ li.atixd p {
     color: white;
     padding: 6px;
     border-radius: 6px;
-    margin: 2px;transition: 0.6s
+    margin: 2px;transition: 0.6s;font-size: 12px;
 }
 
 b.esss{    font-size: 13px;}
@@ -5858,7 +6318,7 @@ b.esss{    font-size: 13px;}
 .sustentable {
     width: 70%;
     margin: 0 auto;
-    height: 1400px;
+    height: auto;
 }
 
 
