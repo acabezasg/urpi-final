@@ -6330,7 +6330,7 @@ button.atras {
 
 
 .lookbookhijo1 {
-    width: 100%;
+    width: 100% !important;
     background: #f3f3f3;
     height: 400px;
     background-size: cover;
@@ -6348,7 +6348,7 @@ button.atras {
 
 
 .lookbookhijo2 {
-    width: 100%;
+    width: 100%!important;
     background: #f3f3f3;
     height: 400px;
     background-size: cover;
@@ -6363,7 +6363,7 @@ button.atras {
 }
 
 .lookbookhijo3 {
-      width: 100%;
+      width: 100%!important;
     background: #f3f3f3;
     height: 400px;
     background-size: cover;
@@ -6379,7 +6379,7 @@ button.atras {
 
 
 .lookbookhijo4 {
-        width: 100%;
+        width: 100%!important;
     background: #f3f3f3;
     height: 400px;
     background-size: cover;
@@ -6396,7 +6396,7 @@ button.atras {
 
 
 .lookbookhijo5 {
-         width: 100%;
+         width: 100%!important;
     background: #f3f3f3;
     height: 400px;
     background-size: cover;
@@ -6414,7 +6414,7 @@ button.atras {
 
 
 .lookbookhijo6 {
-           width: 100%;
+           width: 100%!important;
     background: #f3f3f3;
     height: 400px;
     background-size: cover;
@@ -6431,21 +6431,21 @@ button.atras {
 }
 
 .lookbookhijo7 {
-    width: 100%;
+    width: 100%!important;
     background: #f3f3f3;
     height: 400px;
     float: left;
     border: solid white 30px;
 }
 .lookbookhijo8 {
-    width: 100%;
+    width: 100%!important;
     background: #f3f3f3;
     height: 400px;
     float: left;
     border: solid white 30px;
 }
 .lookbookhijo9 {
-    width: 100%;
+    width: 100%!important;
     background: #f3f3f3;
     height: 400px;
     float: left;
@@ -6499,7 +6499,7 @@ button.atras {
 
 
 .lookbookhijo1woman {
-    width: 100%;
+    width: 100%!important;
     background: #f3f3f3;
     height: 400px;
     background-size: cover;
@@ -6517,7 +6517,7 @@ button.atras {
 
 
 .lookbookhijo2woman {
-    width: 100%;
+    width: 100%!important;
     background: #f3f3f3;
     height: 400px;
     background-size: cover;
@@ -6533,7 +6533,7 @@ button.atras {
 
 
 .lookbookhijo3woman {
-      width:100%;
+      width:100%!important;
     background: #f3f3f3;
     height: 400px;
     background-size: cover;
@@ -6549,7 +6549,7 @@ button.atras {
 
 
 .lookbookhijo4woman {
-        width: 100%;
+        width: 100%!important;
     background: #f3f3f3;
     height: 400px;
     background-size: cover;
@@ -6566,7 +6566,7 @@ button.atras {
 
 
 .lookbookhijo5woman {
-         width: 100%;
+         width: 100%!important;
     background: #f3f3f3;
     height: 400px;
     background-size: cover;
@@ -6599,7 +6599,7 @@ button.atras {
 
 
 .lookbookhijo1men {
-    width: 100%;
+    width: 100%!important;
     background: #f3f3f3;
     height: 400px;
     background-size: cover;
@@ -6617,7 +6617,7 @@ button.atras {
 
 
 .lookbookhijo2men {
-    width: 100%;
+    width: 100%!important;
     background: #f3f3f3;
     height: 400px;
     background-size: cover;
@@ -6660,7 +6660,7 @@ button.atras {
 
 
 .lookbookhijo1kids {
-    width: 100%;
+    width: 100%!important;
     background: #f3f3f3;
     height: 400px;
     background-size: cover;
@@ -6678,7 +6678,7 @@ button.atras {
 
 
 .lookbookhijo2kids {
-    width: 100%;
+    width: 100%!important;
     background: #f3f3f3;
     height: 400px;
     background-size: cover;
@@ -6714,7 +6714,7 @@ button.atras {
 
 
 .lookbookhijo2jewellery {
-    width: 100%;
+    width: 100%!important;
     background: #f3f3f3;
     height: 400px;
     background-size: cover;
