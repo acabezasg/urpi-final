@@ -6140,7 +6140,13 @@ li.active a {
 
 
 
-
+a.active {
+    background: #efe6dc;
+    color: #c57e6f !important;
+    width: 100% !important;
+    display: inline-block;
+    border-radius: 0px;
+}
 
 @media only screen and (max-width: 900px) {
   div.divhome {
