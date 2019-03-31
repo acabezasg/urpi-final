@@ -6,11 +6,34 @@
 
 
 
+<style type="text/css">
+
+ img.coming {
+   width: 100%;position: fixed;left: 0;top: 0;z-index: 9999999;    height: 100%;
+  }
+
+   img.comingm {
+   width: 100%;position: fixed;left: 0;top: 0;z-index: 9999999;    height: 100%;display: none;
+  }
+
+
+  @media only screen and (max-width: 600px) {
+  img.coming {
+   width: 100%;position: fixed;left: 0;top: 0;z-index: 9999999;    height: 100%; display: none;
+  }
+
+   img.comingm {
+   width: 100%;position: fixed;left: 0;top: 0;z-index: 9999999;    height: 100%;
+  }
+
+}
+</style>
 
 
 
-<img style="width: 100%;position: fixed;left: 0;top: 0;" src="/static/assets/coming.jpg">
 
+<img class="coming" src="/static/assets/coming.jpg">
+<img class="comingm" src="/static/assets/comingm.jpg">
 
 
 <div class="slider">
