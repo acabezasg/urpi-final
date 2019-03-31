@@ -13,7 +13,9 @@
 
  body{margin:0;font-family:museo,sans-serif;font-size:1rem;font-weight:400;line-height:1.5;color:#333;text-align:left;background-color:#fff}
 
-
+iframe#lf-iframe-embed-code-71428 {
+    transform: scale(0.9);
+}
 .left2 {
 background: white;
     width: 50%;
@@ -44,6 +46,18 @@ img.logoxd{width: 150px;
     background-repeat: no-repeat;
     background-position: 0px -183px;
 
+}
+
+button.atras {
+    background: #c57e6f;
+    color: white;
+    font-size: 30px;
+    border: none;
+    border-radius: 5px;
+    padding: 0px 13px 0px 13px;
+    top: 15px;
+    position: absolute;
+    left: 15px;
 }
 
 
@@ -5556,7 +5570,7 @@ to{    background-position: -4360px;}}
 
 
 body { margin: 0; } 
-div#slider { overflow: hidden;    height: 670px; }
+div#slider { overflow: hidden;    height: auto; }
 div#slider figure img { width: 20%; float: left; }
 div#slider figure { 
   position: relative;
@@ -5616,11 +5630,10 @@ img.susto {
     height: 0px !important;
     padding: 103px;}
 
-
 .lookbook {
     width: 70%;
     margin: 0 auto;
-    height: 1200px;
+    height: 890px;
 }
 
 .lookbookhijo1 {
@@ -6129,7 +6142,18 @@ li.active a {
 }
 
 
-
+button.atras {
+    background: #c57e6f;
+    color: white;
+    font-size: 21px;
+    border: none;
+    border-radius: 5px;
+    padding: 0px 13px 0px 13px;
+    z-index: 9999;
+    bottom: 15px;
+    position: fixed;
+    left: 15px;top: auto;
+}
 
 
 

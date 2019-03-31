@@ -176,8 +176,111 @@
       </div>
     </div>
     <div class="navbar__menu container d-block">
-      <nav class="navigation">
-        {% menu site_menu=site.settings.top_menu horizontal=True %}
+    <nav class="navigation">
+        
+
+
+
+
+<ul class="menu nav mb-4 mb-md-0">
+  
+  
+  <li class="nav-item  menu__item">
+    <a class="nav-link" href="https://urpi-final.herokuapp.com">
+      Home
+    </a>
+    
+  </li>
+  
+  
+  
+  <li class="nav-item  menu__item">
+    <a class="nav-link" href="https://urpi-final.herokuapp.com/static/assets/nosotros.html">
+      Us
+    </a>
+    
+  </li>
+  
+  
+  
+  <li class="nav-item  menu__item">
+    <a class="nav-link" href="https://urpi-final.herokuapp.com">
+      Store
+    </a>
+    
+  </li>
+  
+  
+  <li class="nav-item nav-item__dropdown menu__item">
+    <a class="nav-link" href="https://urpi-final.herokuapp.com/static/assets/lookbook.html">
+      LookBook
+    </a>
+    <div class="nav-item__dropdown-content">
+      <div class="container">
+        <ul>
+            <li>
+              <a href="/static/assets/women.html">
+                  <strong>Women</strong>
+              </a>
+            </li>
+            <li>
+              <a href="/static/assets/men.html">
+                  <strong>Men</strong>
+              </a>     
+            </li>
+            <li>
+              <a href="/static/assets/kids.html">
+                  <strong>Kids</strong>
+              </a>
+            </li>
+            <li>
+              <a href="/static/assets/homedecor.html">
+                  <strong>Home Decor</strong>
+              </a>
+            </li>
+            <li>
+              <a href="/static/assets/jewerly.html">
+                  <strong>Jewelry</strong>
+              </a>
+            </li>
+            <li>
+              <a href="/static/assets/newcollection.html">
+                  <strong>New Collection</strong>
+              </a>
+            </li>
+        </ul>
+      </div>
+    </div>
+  </li>
+
+  
+
+  
+  <li class="nav-item  menu__item">
+    <a class="nav-link" href="https://urpi-final.herokuapp.com/static/assets/catalogo.html">
+      Catalogs
+    </a>
+    
+  </li>
+
+
+  <li class="nav-item  menu__item">
+    <a class="nav-link" href="https://urpi-final.herokuapp.com/static/assets/contacto.html">
+      Contact Us
+    </a>
+    
+  </li>
+  
+  
+
+  
+  
+  
+
+  
+  
+</ul>
+
       </nav>
     </div>
   </header>
@@ -208,7 +311,7 @@
           <li class="nav-item__dropdown menu__item">
             <a>
               <strong>
-                {% trans "Account" %}
+                {% trans "Customers" %}
               </strong>
             </a>
             <hr />
@@ -224,17 +327,42 @@
                     {% trans "Dashboard" context "Main navigation item" %}
                   </a>
                 </li>
-                <li>
-                  <a href="{% url "styleguide" %}" target="_blank">
-                    {% trans "Style guide" context "Main navigation item" %}
+
+
+
+<li>
+    <a href=""_blank" rel="noopener">
+                    {% trans "Payment policy" context "Main navigation item" %}
                   </a>
                 </li>
+
+
+<li>
+    <a href=""_blank" rel="noopener">
+                    {% trans "Our Showroom" context "Main navigation item" %}
+                  </a>
+                </li>
+
+<li>
+    <a href=""_blank" rel="noopener">
+                    {% trans "Your Suggestions" context "Main navigation item" %}
+                  </a>
+                </li>
+
+
               {% endif %}
               <li>
                 <a href="{% url "account:details" %}">
-                  {% trans "Your account" context "Main navigation item" %}
+                  {% trans "Promotions" context "Main navigation item" %}
                 </a>
               </li>
+
+    <li>
+                <a href="{% url "account:details" %}">
+                  {% trans "Conditions" context "Main navigation item" %}
+                </a>
+              </li>
+              
               {% if user.is_impersonate %}
                 <li>
                   <a href="{% url "impersonate-stop" %}">
@@ -286,8 +414,8 @@ Monday to Friday of 9:00 to 12:00 hrs. from  15:00 to 17:00 hrs</li>
 
   <div class="col-md-4 col-12"><ul><strong><li>Labels</li></strong><hr>
 
-<li class="atixd"><p>Etiqueta1</p><p>Etiqueta2</p><p>Etiqueta3</p><p>Etiqueta4</p><p>Etiqueta5</p><p>Etiqueta6</p><p>Etiqueta7</p><p>Etiqueta8</p>
-<p>Etiqueta9</p><p>Etiqueta10</p><p>Etiqueta11</p><p>Etiqueta12</p><p>Etiqueta13</p><p>Etiqueta14</p><p>Etiqueta15</p><p>Etiqueta16</p></li>
+<li class="atixd"><p>Abrigos</p><p>Casacas</p><p>Ponchos</p><p>Capas</p><p>Vestidos</p><p>Chalecos</p><p>Chaqueta</p><p>Chompas</p>
+<p>Pantalones</p><p>Short</p><p>Polos</p><p>Gorras.</p><p>Chalinas</p><p>Chales</p><p>Mitones</p><p>Guantes</p><p>Vinchas.</p><p>Carteras</p><p>Cartucheras.</p><p>Portacosméticos.</p><p>Monederos</p><p>Billeteras</p><p>Alfombras</p><p>Mantos de viaje</p><p>Cojines</p><p>Caminos de meza</p><p>Individuales</p><p>Porta vasos</p><p>Cortinas.</p><p>Joyas</p><p>Fair Trade</p><p>Fibras Naturales</p><p>Algodón Orgánico</p><p>Alpaca</p><p>Artesanos</p><p>Baby Alpaca</p><p>Handmade</p><p>Moda Sostenible</p><p>RedMep</p><p>IMSP</p></li>
 
 
 
