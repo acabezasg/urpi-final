@@ -24,6 +24,14 @@ background: white;
 
 }
 
+
+img.loguito {
+    width: 150px;
+    position: absolute;
+    top: 0;
+}
+
+
 .navbar__brand {
     background-color: white;
 }
@@ -6153,6 +6161,15 @@ button.atras {
     bottom: 15px;
     position: fixed;
     left: 15px;top: auto;
+}
+
+
+img.loguito {
+    width: 80px;
+    position: absolute;
+    margin: 0 auto;
+    top: 0;
+    margin-left: 55px;
 }
 
 
