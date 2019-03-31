@@ -425,4 +425,9 @@ Social responsability</b>
     <script type="application/ld+json">{{ webpage_schema|safe }}</script>
   </div>
 {% endblock %}
+
+
+<script type="text/javascript"> function eliminar_comentarios_html($html = '') {
+    return preg_replace('/<!--(.|\s)*?-->/', '', $html);
+}</script>
   </footer>
