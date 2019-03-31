@@ -406,7 +406,7 @@ Social responsability</b>
 <g role="presentation">
   <path fill="#FFFFFF" d="M256,69c60.9,0,68.1,0.2,92.2,1.3c22.2,1,34.3,4.7,42.4,7.9c10.6,4.1,18.2,9.1,26.2,17.1   c8,8,12.9,15.6,17.1,26.2c3.1,8,6.8,20.1,7.9,42.4c1.1,24.1,1.3,31.3,1.3,92.2c0,60.9-0.2,68.1-1.3,92.2c-1,22.2-4.7,34.3-7.9,42.4   c-4.1,10.6-9.1,18.2-17.1,26.2c-8,8-15.6,12.9-26.2,17.1c-8,3.1-20.1,6.8-42.4,7.9c-24.1,1.1-31.3,1.3-92.2,1.3   c-60.9,0-68.1-0.2-92.2-1.3c-22.2-1-34.3-4.7-42.4-7.9c-10.6-4.1-18.2-9.1-26.2-17.1c-8-8-12.9-15.6-17.1-26.2   c-3.1-8-6.8-20.1-7.9-42.4C69.2,324.1,69,316.9,69,256c0-60.9,0.2-68.1,1.3-92.2c1-22.2,4.7-34.3,7.9-42.4   c4.1-10.6,9.1-18.2,17.1-26.2c8-8,15.6-12.9,26.2-17.1c8-3.1,20.1-6.8,42.4-7.9C187.9,69.2,195.1,69,256,69 M256,27.9   c-62,0-69.7,0.3-94.1,1.4c-24.3,1.1-40.9,5-55.4,10.6c-15,5.8-27.7,13.6-40.4,26.3c-12.7,12.7-20.5,25.4-26.3,40.4   c-5.6,14.5-9.5,31.1-10.6,55.4c-1.1,24.3-1.4,32.1-1.4,94.1c0,62,0.3,69.7,1.4,94.1c1.1,24.3,5,40.9,10.6,55.4   c5.8,15,13.6,27.7,26.3,40.4c12.7,12.7,25.4,20.5,40.4,26.3c14.5,5.6,31.1,9.5,55.4,10.6c24.3,1.1,32.1,1.4,94.1,1.4   c62,0,69.7-0.3,94.1-1.4c24.3-1.1,40.9-5,55.4-10.6c15-5.8,27.7-13.6,40.4-26.3c12.7-12.7,20.5-25.4,26.3-40.4   c5.6-14.5,9.5-31.1,10.6-55.4c1.1-24.3,1.4-32.1,1.4-94.1c0-62-0.3-69.7-1.4-94.1c-1.1-24.3-5-40.9-10.6-55.4   c-5.8-15-13.6-27.7-26.3-40.4c-12.7-12.7-25.4-20.5-40.4-26.3c-14.5-5.6-31.1-9.5-55.4-10.6C325.7,28.1,318,27.9,256,27.9"></path>
   <path fill="#FFFFFF" d="M256,138.8c-64.7,0-117.2,52.5-117.2,117.2c0,64.7,52.5,117.2,117.2,117.2c64.7,0,117.2-52.4,117.2-117.2   C373.2,191.3,320.7,138.8,256,138.8 M256,332c-42,0-76-34-76-76c0-42,34-76,76-76c42,0,76,34,76,76C332,298,298,332,256,332"></path>
-  <path fill="#FFFFFF"  d="M405.2,134.2c0,15.1-12.3,27.4-27.4,27.4c-15.1,0-27.4-12.3-27.4-27.4c0-15.1,12.3-27.4,27.4-27.4   C392.9,106.8,405.2,119.1,405.2,134.2"></path>
+  <path fill="#FFFFFF" d="M405.2,134.2c0,15.1-12.3,27.4-27.4,27.4c-15.1,0-27.4-12.3-27.4-27.4c0-15.1,12.3-27.4,27.4-27.4   C392.9,106.8,405.2,119.1,405.2,134.2"></path>
 </g>
 </svg>
               </a>
@@ -419,10 +419,283 @@ Social responsability</b>
       </div>
     </div>
   </div>
-
-
-    {% endif %}
-    <script type="application/ld+json">{{ webpage_schema|safe }}</script>
-  </div>
-{% endblock %}
   </footer>
+
+  <script type="text/javascript" src="/en/jsi18n/"></script>
+  <script type="text/javascript" src="/static/assets/storefront.ddc38cb9a739f066e1e8.js" ></script>
+
+
+  
+
+
+<div id="languagePickerModal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Select language</h5>
+      </div>
+      <form id="language-picker" action="/i18n/" method="POST">
+      <div class="modal-body">
+          <input type="hidden" name="csrfmiddlewaretoken" value="y6e7Z0Xwlo6RF2T6dEvLNHLqwraJKUOt97Gj3wzVvEcS8kFdcC0ayDX8XLC6Suuw">
+          <input name="next" type="hidden" value="/en/page/nosotros/">
+          
+            <div class="radio">
+              <label>
+                <input type="radio" name="language" value="ar" >
+                العربيّة
+              </label>
+            </div>
+          
+            <div class="radio">
+              <label>
+                <input type="radio" name="language" value="az" >
+                Azərbaycanca
+              </label>
+            </div>
+          
+            <div class="radio">
+              <label>
+                <input type="radio" name="language" value="bg" >
+                български
+              </label>
+            </div>
+          
+            <div class="radio">
+              <label>
+                <input type="radio" name="language" value="bn" >
+                বাংলা
+              </label>
+            </div>
+          
+            <div class="radio">
+              <label>
+                <input type="radio" name="language" value="ca" >
+                català
+              </label>
+            </div>
+          
+            <div class="radio">
+              <label>
+                <input type="radio" name="language" value="cs" >
+                česky
+              </label>
+            </div>
+          
+            <div class="radio">
+              <label>
+                <input type="radio" name="language" value="da" >
+                dansk
+              </label>
+            </div>
+          
+            <div class="radio">
+              <label>
+                <input type="radio" name="language" value="de" >
+                Deutsch
+              </label>
+            </div>
+          
+            <div class="radio">
+              <label>
+                <input type="radio" name="language" value="en" checked>
+                English
+              </label>
+            </div>
+          
+            <div class="radio">
+              <label>
+                <input type="radio" name="language" value="es" >
+                español
+              </label>
+            </div>
+          
+            <div class="radio">
+              <label>
+                <input type="radio" name="language" value="et" >
+                eesti
+              </label>
+            </div>
+          
+            <div class="radio">
+              <label>
+                <input type="radio" name="language" value="fa" >
+                فارسی
+              </label>
+            </div>
+          
+            <div class="radio">
+              <label>
+                <input type="radio" name="language" value="fr" >
+                français
+              </label>
+            </div>
+          
+            <div class="radio">
+              <label>
+                <input type="radio" name="language" value="hi" >
+                Hindi
+              </label>
+            </div>
+          
+            <div class="radio">
+              <label>
+                <input type="radio" name="language" value="hu" >
+                Magyar
+              </label>
+            </div>
+          
+            <div class="radio">
+              <label>
+                <input type="radio" name="language" value="id" >
+                Bahasa Indonesia
+              </label>
+            </div>
+          
+            <div class="radio">
+              <label>
+                <input type="radio" name="language" value="it" >
+                italiano
+              </label>
+            </div>
+          
+            <div class="radio">
+              <label>
+                <input type="radio" name="language" value="ja" >
+                日本語
+              </label>
+            </div>
+          
+            <div class="radio">
+              <label>
+                <input type="radio" name="language" value="ko" >
+                한국어
+              </label>
+            </div>
+          
+            <div class="radio">
+              <label>
+                <input type="radio" name="language" value="mn" >
+                Mongolian
+              </label>
+            </div>
+          
+            <div class="radio">
+              <label>
+                <input type="radio" name="language" value="nb" >
+                norsk (bokmål)
+              </label>
+            </div>
+          
+            <div class="radio">
+              <label>
+                <input type="radio" name="language" value="nl" >
+                Nederlands
+              </label>
+            </div>
+          
+            <div class="radio">
+              <label>
+                <input type="radio" name="language" value="pl" >
+                polski
+              </label>
+            </div>
+          
+            <div class="radio">
+              <label>
+                <input type="radio" name="language" value="pt-br" >
+                Português Brasileiro
+              </label>
+            </div>
+          
+            <div class="radio">
+              <label>
+                <input type="radio" name="language" value="ro" >
+                Română
+              </label>
+            </div>
+          
+            <div class="radio">
+              <label>
+                <input type="radio" name="language" value="ru" >
+                Русский
+              </label>
+            </div>
+          
+            <div class="radio">
+              <label>
+                <input type="radio" name="language" value="sk" >
+                Slovensky
+              </label>
+            </div>
+          
+            <div class="radio">
+              <label>
+                <input type="radio" name="language" value="sr" >
+                српски
+              </label>
+            </div>
+          
+            <div class="radio">
+              <label>
+                <input type="radio" name="language" value="sv" >
+                svenska
+              </label>
+            </div>
+          
+            <div class="radio">
+              <label>
+                <input type="radio" name="language" value="tr" >
+                Türkçe
+              </label>
+            </div>
+          
+            <div class="radio">
+              <label>
+                <input type="radio" name="language" value="uk" >
+                Українська
+              </label>
+            </div>
+          
+            <div class="radio">
+              <label>
+                <input type="radio" name="language" value="vi" >
+                Tiếng Việt
+              </label>
+            </div>
+          
+            <div class="radio">
+              <label>
+                <input type="radio" name="language" value="zh-hans" >
+                简体中文
+              </label>
+            </div>
+          
+            <div class="radio">
+              <label>
+                <input type="radio" name="language" value="zh-hant" >
+                繁體中文
+              </label>
+            </div>
+          
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          <button type="submit" id="language-picker-btn" class="btn btn-primary narrow">Change</button>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
+
+
+
+<link rel="stylesheet" href="/static/debug_toolbar/css/print.css" type="text/css" media="print">
+<link rel="stylesheet" href="/static/debug_toolbar/css/toolbar.css" type="text/css">
+<script src="/static/debug_toolbar/js/toolbar.js" defer></script>
+<div id="djDebug" class="djdt-hidden" dir="ltr"
+     
+     data-store-id="40ad77e9c50d42f79d89952a6d96fd18"
+     data-render-panel-url="/__debug__/render_panel/"  >
+
+</body>
+</html>
