@@ -4504,7 +4504,7 @@ a.badge:focus,a.badge:hover{text-decoration:none}
 
  .footer__copy{padding:2rem 0 3rem}
 
- .footer__copy-text{text-align:right}
+ .footer__copy-text{text-align:right;color: black;}
 
  .footer__logo{margin-bottom:1rem}
 
@@ -7357,7 +7357,8 @@ li.atixd p {
     margin: 2px;transition: 0.6s;font-size: 12px;
 }
 
-b.esss{    font-size: 13px;}
+b.esss{        font-size: 13px;
+    color: black;}
 
 .sustentable {
     width: 70%;
