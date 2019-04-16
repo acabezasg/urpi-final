@@ -407,7 +407,7 @@ Social responsability</b>
 
 
 
- <script type="text/javascript" src="/en/jsi18n/"></script>
+  <script type="text/javascript" src="/en/jsi18n/"></script>
   <script type="text/javascript" src="/static/assets/storefront.ddc38cb9a739f066e1e8.js" ></script>
 
 
@@ -687,5 +687,13 @@ Social responsability</b>
 
 
 
+{% endblock %}
+{% block footer_scripts %}
+  <script type="text/javascript" src="{% url 'javascript-catalog' %}"></script>
+  {% render_bundle 'storefront' 'js' %}
+{% endblock footer_scripts %}
+{% if LANGUAGES|length > 1 %}
+  {% include "_language_picker_modal.html" %}
+{% endif %}
 </body>
 </html>
