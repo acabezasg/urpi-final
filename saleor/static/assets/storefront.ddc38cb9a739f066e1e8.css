@@ -4785,7 +4785,12 @@ input#id_quantity{padding:.5rem}
 
  .navbar__menu .navigation ul .nav-item a{padding:.5rem 1rem;font-size:1rem}
 
- .navbar__menu .navigation.open{left:0;box-shadow:1px 1px 10px 1px #d3d1d0}
+.navbar__menu .navigation.open {
+    left: 0;
+    box-shadow: 1px 1px 10px 1px #d3d1d0;
+    column-count: 2;
+    width: 100%;
+}
 
 }
 
