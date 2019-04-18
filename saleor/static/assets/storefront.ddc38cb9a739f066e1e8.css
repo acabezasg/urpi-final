@@ -5557,17 +5557,17 @@ img.imgder {
 }
 
     @keyframes slidy {
-0% { left: 0%; }
-20% { left: 0%; }
-25% { left: -100%; }
-45% { left: -100%; }
-50% { left: -200%; }
-70% { left: -200%; }
-75% { left: -300%; }
-80% { left: -300%; }
-85% { left: -300%; }
-90% { left: -400%; }
-95% { left: -400%; }
+0% { left: 0%;filter: brightness(0.3); }
+20% { left: 0%;filter: brightness(1); }
+25% { left: -100%;filter: brightness(0.3); }
+45% { left: -100%;filter: brightness(1); }
+50% { left: -200%;filter: brightness(0.3); }
+70% { left: -200%; filter: brightness(1);}
+75% { left: -300%; filter: brightness(0.3);}
+80% { left: -300%; filter: brightness(1); }
+85% { left: -300%;filter: brightness(0.3); }
+90% { left: -400%;filter: brightness(1); }
+95% { left: -400%;filter: brightness(0.3); }
 
 }
 
