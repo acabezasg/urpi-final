@@ -5557,17 +5557,17 @@ img.imgder {
 }
 
     @keyframes slidy {
-0% { left: 0%;filter: brightness(0.3); }
-20% { left: 0%;filter: brightness(1); }
-25% { left: -100%;filter: brightness(0.3); }
-45% { left: -100%;filter: brightness(1); }
-50% { left: -200%;filter: brightness(0.3); }
-70% { left: -200%; filter: brightness(1);}
-75% { left: -300%; filter: brightness(0.3);}
-80% { left: -300%; filter: brightness(1); }
-85% { left: -300%;filter: brightness(0.3); }
-90% { left: -400%;filter: brightness(1); }
-95% { left: -400%;filter: brightness(0.3); }
+0% { left: 0%; }
+20% { left: 0%; }
+25% { left: -100%; }
+45% { left: -100%; }
+50% { left: -200%; }
+70% { left: -200%; }
+75% { left: -300%; }
+80% { left: -300%; }
+85% { left: -300%; }
+90% { left: -400%; }
+95% { left: -400%; }
 
 }
 
@@ -7192,11 +7192,8 @@ img.lukimg {
 }
 
 
-.wherehijo1{ background-image: url(/static/assets/cuadrito1.jpg); background-position: center;background-repeat: no-repeat;background-size: cover;width: 100%;height: 100%;float: left; border: solid 4px; white;}
-.wherehijo2{ background-image: url(/static/assets/cuadrito2.jpg); background-position: center;background-repeat: no-repeat;background-size: cover;width: 100%;height: 100%;float: left; border: solid 4px; white;}
-.wherehijo3{ background-image: url(/static/assets/cuadrito3.jpg); background-position: center;background-repeat: no-repeat;background-size: cover;width: 100%;height: 100%;float: left; border: solid 4px; white;}
-.wherehijo4{ background-image: url(/static/assets/cuadrito4.jpg); background-position: center;background-repeat: no-repeat;background-size: cover;width: 100%;height: 100%;float: left; border: solid 4px; white;}
-.wherehijo5{ background-image: url(/static/assets/cuadrito5.jpg); background-position: center;background-repeat: no-repeat;background-size: cover;width: 100%;height: 100%;float: left; border: solid 4px; white;}
+.wherehijo1{ background-image: url(/static/assets/bandam.jpg); background-position: center;background-repeat: no-repeat;background-size: cover;width: 100%;height: 100%;float: left; border: solid 4px; white;}
+
 
 img.susto{width: 100%;margin-bottom: 20px;}
 
