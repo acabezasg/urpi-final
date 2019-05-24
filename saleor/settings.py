@@ -380,7 +380,7 @@ bootstrap4 = {
 
 TEST_RUNNER = 'tests.runner.PytestTestRunner'
 
-ALLOWED_HOSTS = ['www.urpicorp.com', 'urpi-final.herokuapp.com', 'localhost', 'urpi-prueba-2.appspot.com']
+ALLOWED_HOSTS = ['www.urpicorp.com', 'urpi-final.herokuapp.com', 'localhost', 'urpi-prueba-2.appspot.com', 'urpicorp.com]
 ALLOWED_GRAPHQL_ORIGINS = os.environ.get('ALLOWED_GRAPHQL_ORIGINS', '*')
 
 SECURE_PROXY_SSL_HEADER = ('HTTP_X_FORWARDED_PROTO', 'https')
